@@ -2,7 +2,7 @@ const registerValidator = require('../validator/registerValidator')
 
 //login controller
 module.exports = {
-    login(req,res){
+    login(req, res){
         let name = req.body.name;
         let email = req.body.email;
         res.json({

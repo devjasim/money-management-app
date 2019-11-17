@@ -4,7 +4,7 @@ const validate = user => {
     let error = {}
 
     if (!user.name){
-        error.name= `Please Provide Your Name`
+        error.name = 'Please Provide Your Name'
     }
     if (!user.email) {
         error.email = 'Please Provide Your Email'
